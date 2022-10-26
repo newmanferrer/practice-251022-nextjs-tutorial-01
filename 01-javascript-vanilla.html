@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        background-color: #333;
+      }
+
+      h1 {
+        color: white;
+      }
+    </style>
+    <title>Nextjs Vercel Tutorial</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      // Select the div element with 'app' id
+      const app = document.getElementById('app')
+
+      // Create a new H1 element
+      const title = document.createElement('h1')
+
+      // Create a new text node for the H1 element
+      const headerContent = document.createTextNode('Develop. Preview. Ship. 🚀. Pizza 🍕')
+
+      // Append the text to the H1 element
+      title.appendChild(headerContent)
+
+      // Place the H1 element inside the div
+      app.appendChild(title)
+    </script>
+  </body>
+</html>
